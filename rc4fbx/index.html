@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>Freebox RC 1.0.0</title>
+
+		<meta charset="utf-8"></meta>
+		<!-- To ensure proper rendering and touch zooming -->
+		<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+		
+		<link rel="stylesheet" href="css/bootstrap.min.css"></link>
+		<link rel="stylesheet" href="css/main.css"></link>
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/main.js"></script>
+	</head>
+	<body onload="init()">
+		<div class="container-fluid">
+			<div class="delimiterSmall">&nbsp;</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="tv" class="full">AV</button></div>
+				<div class="col-md-4 col-xs-4 button"></div>
+				<div class="col-md-4 col-xs-4 button"><button id="power" class="full"><span class="glyphicon glyphicon-off"></span></button></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="1" class="full">1</button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="2" class="full">2</button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="3" class="full">3</button></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="4" class="full">4</button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="5" class="full">5</button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="6" class="full">6</button></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="7" class="full">7</button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="8" class="full">8</button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="9" class="full">9</button></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"></div>
+				<div class="col-md-4 col-xs-4 button"><button id="0" class="full">0</button></div>
+				<div class="col-md-4 col-xs-4 button"></div>
+			</div>
+			<div class="delimiterMedium">&nbsp;</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="red"  class="full" style="background-color:tomato"><span class="glyphicon glyphicon-share-alt"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="up"   class="full"><span class="glyphicon glyphicon-circle-arrow-up"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="blue" class="full" style="background-color:SteelBlue "><span class="glyphicon glyphicon-search"></span></button></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="left"  class="full"><span class="glyphicon glyphicon-circle-arrow-left"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="ok"    class="full"><span class="glyphicon glyphicon-ok"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="right" class="full"><span class="glyphicon glyphicon-circle-arrow-right"></span></button></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="green"  class="full" style="background-color:GreenYellow"><span class="glyphicon glyphicon-list-alt"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="down"   class="full"><span class="glyphicon glyphicon-circle-arrow-down"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="yellow" class="full" style="background-color:gold"><span class="glyphicon glyphicon-info-sign"></span></button></div>
+			</div>
+			<div class="delimiterMedium">&nbsp;</div>
+			<div class="row">
+				<div class="col-md-12 col-xs-12 button"><button id="home" class="full" style="color:tomato; font-size:20px"><i>free</i></button></div>
+			</div>
+			<div class="delimiterMedium">&nbsp;</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="vol_inc"  class="full"><span class="glyphicon glyphicon-volume-up"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="mute"     class="full"><span class="glyphicon glyphicon-volume-off"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="prgm_inc" class="full"><span class="glyphicon glyphicon-chevron-up"></span></button></div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="vol_dec"  class="full"><span class="glyphicon glyphicon-volume-down"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="rec"      class="full" style="color:tomato"><span class="glyphicon glyphicon-record"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="prgm_dec" class="full"><span class="glyphicon glyphicon-chevron-down"></span></button></div>
+			</div>
+			<div class="delimiterMedium">&nbsp;</div>
+			<div class="row">
+				<div class="col-md-4 col-xs-4 button"><button id="bwd"  class="full"><span class="glyphicon glyphicon-backward"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="play" class="full"><span class="glyphicon glyphicon-step-forward"></span></button></div>
+				<div class="col-md-4 col-xs-4 button"><button id="fwd"  class="full"><span class="glyphicon glyphicon-forward"></span></button></div>
+			</div>
+		</div>
+	</body>
+</html>
