@@ -8,6 +8,7 @@ Remote Control 4 Freebox
 ## Description
 
 [rc4fbx](https://github.com/cyosp/rc4fbx) is a HTML static web page which allows to have a remote control for the box of the [Free](http://www.free.fr) Internet provider.
+
 This box is called the [Freebox](http://www.free.fr/adsl/freebox-revolution.html) and can be driven using HTTP requests.
 
 Thus with [rc4fbx](https://github.com/cyosp/rc4fbx) it's possible to remote control your [Freebox](http://www.free.fr/adsl/freebox-revolution.html) with a web browser.
@@ -30,6 +31,7 @@ In this way you can do it using your:
 ## Usage
 
 [rc4fbx](https://github.com/cyosp/rc4fbx) works only if you are in the same network of the [Freebox](http://www.free.fr/adsl/freebox-revolution.html).
+
 In other words you must be at home to have it working.
 
 ## Deployment
@@ -51,11 +53,13 @@ They must be filled in the JavaScript configuration file:
 ### Freebox hostname or IP
 
 Is used to specify which box must receive the request.
+
 By default it's: **hd1.freebox.fr** which must be configured in **config.freeboxHost**.
 
 ### Command identifier
 
 It's the identifier of the remote control provided by [Free](http://www.free.fr).
+
 With a [Freebox V6](http://www.free.fr/adsl/freebox-revolution.html) it can be retrieved with this steps:
  * Power on [Freebox V6](http://www.free.fr/adsl/freebox-revolution.html)
  * In *Réglages* select *Télécommande*
