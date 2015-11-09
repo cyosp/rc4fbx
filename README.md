@@ -60,10 +60,11 @@ By default it's: **hd1.freebox.fr** which must be configured in **config.freebox
 
 It's the identifier of the remote control provided by [Free](http://www.free.fr).
 
-With a [Freebox V6](http://www.free.fr/adsl/freebox-revolution.html) it can be retrieved with this steps:
+With a [Freebox V6](http://www.free.fr/adsl/freebox-revolution.html) whose Player firmware version is greater than or equal to 1.3.3, it can be retrieved with this steps:
  * Power on [Freebox V6](http://www.free.fr/adsl/freebox-revolution.html)
- * In *Réglages* select *Télécommande*
- * At the screen bottom, code is displayed after label: *Code Télécommande réseau:*
+ * In *Réglages* select *Système*
+ * Down to *Informations Freebox Player et Server* and validate with *OK*
+ * At screen right, in *Télécommande* section, code is displayed after label: *Code Télécommande réseau :*
 
 ### Sample configuration file
 
