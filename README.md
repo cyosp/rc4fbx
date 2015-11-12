@@ -2,7 +2,7 @@
 
 Remote Control 4 Freebox
 
-![Stable version](https://img.shields.io/badge/stable-1.0.0-blue.svg)
+![Stable version](https://img.shields.io/badge/stable-1.1.0-blue.svg)
 [![BSD-3 license](https://img.shields.io/badge/license-BSD--3--Clause-428F7E.svg)](https://tldrlegal.com/license/bsd-3-clause-license-%28revised%29)
 
 ## Description
@@ -74,7 +74,37 @@ var config =
 	freeboxHost:       "hd1.freebox.fr" ,
 	remoteControlCode: "12345678"
 };
+```
 
+## Advanced configuration
+
+ * Power on with TV on a specific channel
+
+| Freebox version | Activated by default |
+|:---------------:|:--------------------:|
+| Révolution (V6) | False                |
+
+It's possible to enable a feature which will power on the [Freebox  V6](http://www.free.fr/adsl/freebox-revolution.html) on TV with a specific channel.
+A section *channelPower* must be configured like this:
+```js
+var config =
+{
+	freeboxHost:       "hd1.freebox.fr" ,
+	remoteControlCode: "12345678"       ,
+
+    //
+	// Designed to work with Freebox V6
+	//
+	channelPower:
+	{
+		// Enable Freebox to power on on TV with a specific channel
+		// Enable value is 'true'
+		enabled:	"false",
+		// Define on which channel in the 0-9 range
+		// the TV must be channel changed
+		channel:	"0"
+	}
+};
 ```
 
 ## License
