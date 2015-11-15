@@ -2,7 +2,7 @@
 
 Remote Control 4 Freebox
 
-![Stable version](https://img.shields.io/badge/stable-1.1.0-blue.svg)
+![Stable version](https://img.shields.io/badge/stable-1.2.0-blue.svg)
 [![BSD-3 license](https://img.shields.io/badge/license-BSD--3--Clause-428F7E.svg)](https://tldrlegal.com/license/bsd-3-clause-license-%28revised%29)
 
 ## Description
@@ -89,9 +89,6 @@ A section *channelPower* must be configured like this:
 ```js
 var config =
 {
-	freeboxHost:       "hd1.freebox.fr" ,
-	remoteControlCode: "12345678"       ,
-
     //
 	// Designed to work with Freebox V6
 	//
@@ -103,6 +100,51 @@ var config =
 		// Define on which channel in the 0-9 range
 		// the TV must be channel changed
 		channel:	"0"
+	}
+};
+```
+
+ * Fast volume
+
+| Freebox version       | Activated by default |
+|:---------------------:|:--------------------:|
+| V5 or Révolution (V6) | False                |
+
+It's possible to add in the remote control two new buttons which will allow to fast increase or fast decrease the volume. In fact it's the standard button whose pressed key is simulated to a long.
+
+To enable this feature the following configuration must be setted:
+```js
+var config =
+{
+   // Manage fast volume buttons
+   // 'add' value allows to add fast volume buttons to remote control
+   fastVolumeButtons:		"none"
+};
+```
+
+### Complete configuration file example:
+
+```js
+var config =
+{
+	freeboxHost:            "hd1.freebox.fr" ,
+	remoteControlCode:      "12344321"       ,
+
+	// Manage fast volume buttons
+	// 'add' value allows to add fast volume buttons to remote control
+	fastVolumeButtons:      "add" ,
+
+	//
+	// Designed to work with Freebox V6
+	//
+	channelPower:
+	{
+		// Enable Freebox to power on on TV with a specific channel
+		// Enable value is 'true'
+		enabled:    "true",
+		// Define on which channel in the 0-9 range
+		// the TV must be channel changed
+		channel:    "2"
 	}
 };
 ```

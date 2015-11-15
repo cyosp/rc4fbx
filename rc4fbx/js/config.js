@@ -1,7 +1,11 @@
 var config =
 {
-	freeboxHost:       "hd1.freebox.fr" ,
-	remoteControlCode: "12345678"		,
+	freeboxHost:			"hd1.freebox.fr" ,
+	remoteControlCode:		"12345678"		 ,
+	
+	// Manage fast volume buttons
+	// 'add' value allows to add fast volume buttons to remote control
+	fastVolumeButtons:		"none" ,
 	
 	//
 	// Designed to work with Freebox V6
