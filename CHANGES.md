@@ -1,3 +1,6 @@
+### V 1.2.1 17/11/2015
+ - Fix: String.startsWith for Safari/iOS
+
 ### V 1.2.0 15/11/2015
  - Add the possibility to fast increase/decrease the volume
 
