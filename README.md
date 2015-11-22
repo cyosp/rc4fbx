@@ -2,7 +2,7 @@
 
 Remote Control 4 Freebox
 
-![Stable version](https://img.shields.io/badge/stable-1.2.0-blue.svg)
+![Stable version](https://img.shields.io/badge/stable-1.2.1-blue.svg)
 [![BSD-3 license](https://img.shields.io/badge/license-BSD--3--Clause-428F7E.svg)](https://tldrlegal.com/license/bsd-3-clause-license-%28revised%29)
 
 ## Description
