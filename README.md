@@ -5,6 +5,8 @@ Remote Control 4 Freebox
 ![Stable version](https://img.shields.io/badge/stable-1.2.1-blue.svg)
 [![BSD-3 license](https://img.shields.io/badge/license-BSD--3--Clause-428F7E.svg)](https://tldrlegal.com/license/bsd-3-clause-license-%28revised%29)
 
+![rc4fbx](/doc/images/rc4fbx.png?raw=true "rc4fbx")
+
 ## Description
 
 [rc4fbx](https://github.com/cyosp/rc4fbx) is a HTML static web page which allows to have a remote control for the box of the [Free](http://www.free.fr) Internet provider.
