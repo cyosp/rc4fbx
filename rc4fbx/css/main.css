@@ -1,7 +1,13 @@
-/* Background remote control color */
-body
+/* Background remote control color thus button color */
+body, button
 {
     background-color: DarkGray;
+}
+
+/* Button text color */
+span
+{
+    color: white;
 }
 
 /*  Little height delimiter between buttons */
