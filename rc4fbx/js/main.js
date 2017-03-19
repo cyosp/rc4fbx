@@ -15,7 +15,7 @@ function init()
 		// Reduce width of the standard power button
 		$( "#power" ).parent().removeClass( "col-md-4 col-xs-4" ).addClass( "col-md-2 col-xs-2" );
 		// Add specific channel to the button which allows to TV power on with a specific channel 
-		$( "#channelPower" ).append( "&nbsp;" + config.channelPower.channel );
+		$( "#channelPower" ).append( "&nbsp;<span><b>" + config.channelPower.channel + "</b></span>" );
 		// Display TV power on with a specific channel button
 		$( "#channelPower" ).parent().show();
 	}

@@ -1,11 +1,17 @@
-### V 1.2.1 17/11/2015
+### V 1.3.1 2017-03-19
+ - Fix: UI color glitch
+
+### V 1.3.0 2017-03-19
+ - Update UI to look likes more Freebox remote control
+
+### V 1.2.1 2015-11-17
  - Fix: String.startsWith for Safari/iOS
 
-### V 1.2.0 15/11/2015
+### V 1.2.0 2015-11-15
  - Add the possibility to fast increase/decrease the volume
 
-### V 1.1.0 12/11/2015
+### V 1.1.0 2015-11-12
  - Add the possibility to power on the Freebox V6 on TV with a specific channel
 
-### V 1.0.0 07/11/2015
+### V 1.0.0 2015-11-07
  - First version
