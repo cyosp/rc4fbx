@@ -1,3 +1,6 @@
+### V 1.3.2 2018-03-29
+ - Fix: UI space glitch
+
 ### V 1.3.1 2017-03-19
  - Fix: UI color glitch
 
