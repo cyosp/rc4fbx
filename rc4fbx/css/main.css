@@ -2,6 +2,13 @@
 body, button
 {
     background-color: DarkGray;
+
+	/* Disable selection */
+	-webkit-user-select: none;
+	/* Disable highlighting */
+	-webkit-tap-highlight-color: transparent;
+	/* Disable callouts */
+	-webkit-touch-callout: none;
 }
 
 /* Button text color */

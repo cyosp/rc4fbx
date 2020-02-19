@@ -1,3 +1,6 @@
+### V 2.0.0 2020-02-19
+ - Allow to behave like an iOS native application on home screen
+
 ### V 1.3.2 2018-03-29
  - Fix: UI space glitch
 
