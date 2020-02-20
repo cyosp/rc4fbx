@@ -151,6 +151,12 @@ var config =
 };
 ```
 
+## iOS native application
+
+Open [rc4fbx](https://github.com/cyosp/rc4fbx) with Safari on an iPhone and shares it onto the home screen.
+
+When home screen icon will be run, [rc4fbx](https://github.com/cyosp/rc4fbx) will behave like a native iOS application.
+
 ## License
 
 **rc4fbx** is released under the BSD 3-Clause License. See the bundled `LICENSE.md` for details.
