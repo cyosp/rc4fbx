@@ -45,3 +45,17 @@ button {
     padding-left: 2px;
     padding-right: 2px;
 }
+
+/* Configuration for volume buttons divided into two ones */
+.long-vol {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.long-vol-left {
+    padding-right: 2px;
+}
+
+.long-vol-right {
+    padding-left: 2px;
+}

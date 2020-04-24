@@ -1,7 +1,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 <html>
 	<head>
-		<title>rc4fbx - 2.0.0</title>
+		<title>rc4fbx - 2.1.0</title>
 		<link rel="icon" type="image/png" href="favicon.png"/>
 
 		<meta charset="utf-8"></meta>
@@ -18,12 +18,12 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"></meta>
 		
 		<link rel="stylesheet" href="css/bootstrap.min.css?version=3.3.7"></link>
-		<link rel="stylesheet" href="css/main.css?version=2.0.0"></link>
+		<link rel="stylesheet" href="css/main.css?version=2.1.0"></link>
 		
 		<script src="js/jquery.min.js?version=2.1.4"></script>
 		<script src="js/bootstrap.min.js?version=3.3.7"></script>
-		<script src="js/config.js?version=2.0.0"></script>
-		<script src="js/main.js?version=2.0.0"></script>
+		<script src="js/config.js?version=2.1.0"></script>
+		<script src="js/main.js?version=2.1.0"></script>
 	</head>
 	<body onload="init()" ontouchstart=""><!-- Enable tap effects -->
 		<div class="container-fluid">
@@ -77,13 +77,13 @@
 			<div class="delimiterMedium">&nbsp;</div>
 			<div class="row">
 				<div class="col-md-4 col-xs-4 button"><button id="vol_inc"  class="full"><span class="glyphicon glyphicon-volume-up"></span></button></div>
-				<div class="col-md-2 col-xs-2 button" hidden="true"><button id="long_vol_inc" class="full"><span class="glyphicon glyphicon-volume-up"></span>&nbsp;<span class="glyphicon glyphicon-volume-up"></span></button></div>
+				<div class="col-md-2 col-xs-2 button" hidden="true"><button id="long_vol_inc" class="full long-vol"><span class="glyphicon glyphicon-volume-up long-vol-left"></span><span class="glyphicon glyphicon-volume-up long-vol-right"></span></button></div>
 				<div class="col-md-4 col-xs-4 button"><button id="mute"     class="full"><span class="glyphicon glyphicon-volume-off"></span></button></div>
 				<div class="col-md-4 col-xs-4 button"><button id="prgm_inc" class="full"><span class="glyphicon glyphicon-plus"></span></button></div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-xs-4 button"><button id="vol_dec"  class="full"><span class="glyphicon glyphicon-volume-down"></span></button></div>
-				<div class="col-md-2 col-xs-2 button" hidden="true"><button id="long_vol_dec" class="full"><span class="glyphicon glyphicon-volume-down"></span>&nbsp;<span class="glyphicon glyphicon-volume-down"></span></button></div>
+				<div class="col-md-2 col-xs-2 button" hidden="true"><button id="long_vol_dec" class="full long-vol"><span class="glyphicon glyphicon-volume-down long-vol-left"></span><span class="glyphicon glyphicon-volume-down long-vol-right"></span></button></div>
 				<div class="col-md-4 col-xs-4 button"><button id="rec"      class="full"><span class="glyphicon glyphicon-record" style="color:tomato"></span></button></div>
 				<div class="col-md-4 col-xs-4 button"><button id="prgm_dec" class="full"><span class="glyphicon glyphicon-minus"></span></button></div>
 			</div>

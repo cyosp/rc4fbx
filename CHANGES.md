@@ -1,3 +1,6 @@
+### V 2.1.0 2020-04-24
+ - Improve display of long volume buttons on iPhone X
+
 ### V 2.0.0 2020-02-19
  - Allow to behave like an iOS native application on home screen
 
