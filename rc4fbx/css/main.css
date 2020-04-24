@@ -1,55 +1,47 @@
 /* Background remote control color thus button color */
-body, button
-{
+body, button {
     background-color: DarkGray;
 
-	/* Disable selection */
-	-webkit-user-select: none;
-	/* Disable highlighting */
-	-webkit-tap-highlight-color: transparent;
-	/* Disable callouts */
-	-webkit-touch-callout: none;
+    /* Disable selection */
+    -webkit-user-select: none;
+    /* Disable highlighting */
+    -webkit-tap-highlight-color: transparent;
+    /* Disable callouts */
+    -webkit-touch-callout: none;
 }
 
 /* Button text color */
-span
-{
+span {
     color: white;
 }
 
 /*  Little height delimiter between buttons */
-.delimiterSmall
-{
-	height: 5px;
+.delimiterSmall {
+    height: 5px;
 }
 
 /* Medium height delimiter between buttons */
-.delimiterMedium
-{
-	height: 15px;
+.delimiterMedium {
+    height: 15px;
 }
 
 /* Buttons line height */
-.row
-{
-	height: 40px;
+.row {
+    height: 40px;
 }
 
 /* Button height */
-button
-{
-	height: 80%;
+button {
+    height: 80%;
 }
 
 /* Button width inside a div tag */
-.full
-{
-	width: 100%;
+.full {
+    width: 100%;
 }
 
 /* Button display properties */
-.button
-{
-	padding-left: 2px;
-	padding-right: 2px;
+.button {
+    padding-left: 2px;
+    padding-right: 2px;
 }
