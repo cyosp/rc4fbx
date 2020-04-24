@@ -50,6 +50,6 @@ button
 /* Button display properties */
 .button
 {
-	padding-left: 2;
-	padding-right: 2;
+	padding-left: 2px;
+	padding-right: 2px;
 }
